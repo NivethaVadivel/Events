@@ -1,0 +1,192 @@
+
+.container{
+    position: relative;
+}
+
+.full{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(247, 226, 229);
+    height: 60vh;
+    width: 30vw;
+    /* margin-left: 35%;
+    margin-right: 35%; */
+    margin:100px 500px;
+    font-family: 'Lato', sans-serif;
+   
+}
+.pad{
+    padding: 50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.full label{
+    font-weight:bold;
+}
+.showpass{
+    border-radius: 5px;
+    font-size: 8px;
+    background-color: rgba(255, 129, 247, 0.741);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+/* .full input{
+    border-radius: 5px;
+    width:250px;
+    height:35px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #ccc;
+} */
+.forms{
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #ccc;
+}
+/* .full input[type=checkbox]{
+    width:20px;
+    margin-right:80%;
+} */
+.para{
+    font-size: 13px;
+}
+.logbut {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .logbut:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .logbut:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+.homebody{
+  position:relative;
+  filter:blur(3px);
+  background-repeat: no-repeat;
+  width:100%;
+  z-index:0;
+}
+@media screen and (max-width: 1245px) {
+    .full{
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(247, 226, 229);
+        height: 50vh;
+        width: 30vw;
+        /* margin-left: 35%;
+        margin-right: 35%; */
+        margin:150px 500px;
+       
+    }
+    .pad{
+        padding: 50px;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 1123px) {
+    .full{
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(247, 226, 229);
+        height: 50vh;
+        width: 35vw;
+        /* margin-left: 35%;
+        margin-right: 35%; */
+        margin:150px 400px;
+       
+    }
+    .pad{
+        padding: 40px;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .full{
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(247, 226, 229);
+        height: 50vh;
+        width: 40vw;
+        /* margin-left: 35%;
+        margin-right: 35%; */
+        margin:150px 350px;
+       
+    }
+    .pad{
+        padding: 30px;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .full{
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(247, 226, 229);
+        height: 50vh;
+        width: 50vw;
+        /* margin-left: 35%;
+        margin-right: 35%; */
+        margin:100px 250px;
+       
+    }
+    .pad{
+        padding: 20px;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .full{
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(247, 226, 229);
+        height: 50vh;
+        width: 60vw;
+        /* margin-left: 35%;
+        margin-right: 35%; */
+        margin:50px 150px;
+       
+    }
+    .pad{
+    padding: 50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  }

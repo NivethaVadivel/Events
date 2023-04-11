@@ -1,0 +1,49 @@
+.section1 img {
+   border-radius:  8px;
+    width: 70%;
+    padding-left: 1vh;
+    height: 450px;
+  }
+  .section1 {
+    border-radius: 8px;
+    padding: 5vh;
+  }
+  .section1 h1 {
+    text-transform: uppercase;
+    padding-bottom: 2vh;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .section1 h1 span {
+    color: red;
+  }
+  .section1 p {
+    font-size: 2vh;
+    font-weight: 500;
+  }
+  .section2 img {
+    border-radius:  8px;
+    width: 70%;
+    padding-left: 1vh;
+    height: 450px;
+  }
+  .section2 {
+    padding: 2vh;
+    background-color: #796b6b79;
+
+  }
+  .section2 h1 {
+    text-transform: uppercase;
+    padding-bottom: 2vh;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 2vh;
+  }
+  .section2 h1 span {
+    color: red;
+  }
+  .section2 p {
+    font-size: 2vh;
+    font-weight: 500;
+    padding-left: 2vh;
+  }
