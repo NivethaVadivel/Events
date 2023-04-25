@@ -9,3 +9,13 @@ export const createBook=async(req,res,next)=>{
         next(err);
     }
 }
+
+export const getBook=async(req,res,next)=>{
+    const response=await Booking.find({})
+    if(response.length>=1){
+        res.status(200).json({"msg":"sucess","data":response})
+    }
+    else{
+        res.status(200).json({"msg":"failed"})
+    }
+}

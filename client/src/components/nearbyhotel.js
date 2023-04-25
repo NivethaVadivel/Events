@@ -20,15 +20,18 @@ export const Nearbyhotel = () => {
     const li = list.map((x,index) => {
 
       return  (<div key={index} className={styles.event}>
-               <h3>{x.hotel_name}</h3>
-              <img src="" alt='img1'/>
-              <p>"A happy marriage is the union of two good forgivers." - Ruth Bell Graham</p>
+               <h3>{x.hotel_name}</h3><br></br>
+              {/* <img src="" alt='img1'/> */}
+              <p>Location:{x.location}</p>
               </div>)
       }
   );
   return (
+    <div>
+
     <div className={styles.Types_of_Events}>
         {li}
+    </div>
     </div>
     // <div>
     //   <h1>Hotels near Vasavi Mahal</h1>

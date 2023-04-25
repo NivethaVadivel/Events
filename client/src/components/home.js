@@ -6,7 +6,7 @@ import concert from '../images/concert.jpg'
 import marriage from '../images/marraige.jpg'
 import concerts from '../images/concerts.jpg'
 import meetings from '../images/meetings.jpg'
-import { Cal } from './cal'
+import Calendar from './calender';
 import { Link } from 'react-router-dom'
 import { Footer } from './footer'
 export const Home = () => {
@@ -22,9 +22,9 @@ export const Home = () => {
     <button onClick={explore} className="home-but"> Explore Now !!</button>
     </div>
     </div>
-    {/* <div className='cal'>
-        <Cal/>
-    </div> */}
+    <div className='cal'>
+        <Calendar/>
+    </div> 
     <div className='gap'>
     <h1>Types of Events</h1>
     <div className='Types_of_Events'>

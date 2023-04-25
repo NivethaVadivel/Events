@@ -49,7 +49,7 @@ return(
           <input type="date" className="addhotelinp" value={end.toISOString().substr(0,10)} onChange={(e)=>setEnd(new Date(e.target.value))}/>
 
           <label >Venue:</label>
-          <input type="text" className="addhotelinp" onChange={(e)=>setEventName(e.target.value)} />
+          <input type="text" className="addhotelinp" onChange={(e)=>setVenue(e.target.value)} />
 
           <label >Capacity:</label>
           <input type="text" className="addhotelinp" onChange={(e)=>setCapacity(e.target.value)} />

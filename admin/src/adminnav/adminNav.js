@@ -1,5 +1,4 @@
 import React from 'react'
-import vasavilogo from "../images/vasavilogo.png"
 import { NavLink } from 'react-router-dom'
 import './adminnav.css'
 
@@ -7,8 +6,7 @@ export const AdminNav = () => {
   return (
     <div>
        <div class="area"></div><nav class="main-menu">
-        <img src={vasavilogo}></img>
-        <h3 style={{color:"white"}}>VASAVI MAHAL</h3>
+        <h3 style={{color:"white"}}>EVENTS</h3>
             <ul>
                 <li>
                     <NavLink to="/home">
@@ -19,15 +17,16 @@ export const AdminNav = () => {
                     </NavLink>
                   
                 </li>
-                <li class="has-subnav">
-                    <NavLink to="/addhotel">
-                        <i class="fa fa-cutlery fa-2x"></i>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-cogs fa-2x"></i>
                         <span class="nav-text">
-                           Add Nearby Hotels
+                           Add Decorators
                         </span>
-                    </NavLink>
-                    
+                    </a>
                 </li>
+                <li>
+                
                 <li class="has-subnav">
                     <a href="#">
                        <i class="fa fa-comments fa-2x"></i>
@@ -41,7 +40,7 @@ export const AdminNav = () => {
                     <a href="#">
                        <i class="fa fa-camera-retro fa-2x"></i>
                         <span class="nav-text">
-                            Add Mahal Photos
+                            Display bookings
                         </span>
                     </a>
                    
@@ -54,19 +53,11 @@ export const AdminNav = () => {
                         </span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-cogs fa-2x"></i>
-                        <span class="nav-text">
-                           Add Decorators
-                        </span>
-                    </a>
-                </li>
-                <li>
+                
                    <a href="#">
                         <i class="fa fa-map-marker fa-2x"></i>
                         <span class="nav-text">
-                            Member Map
+                            Location
                         </span>
                     </a>
                 </li>

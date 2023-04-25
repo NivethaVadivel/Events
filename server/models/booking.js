@@ -22,12 +22,12 @@ const BookingSchema=new Schema({
         required:true
     },
     dining:{
-        type:Boolean,
-        required:true
+        type:String,
+        required:false
     },
     extraAssistance:{
-        type:Boolean,
-        required:true
+        type:String,
+        required:false
     },
     isAdmin:{
         type:Boolean,
